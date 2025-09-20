@@ -59,6 +59,41 @@ def get_all_books():
     # Return the list as a JSON response
     return jsonify(book_list)
 
+#Endpoint to get a specific book by ID
+@app.route('/books/<int:book_id>', methods=['GET'])
+def get_book(book_id):
+    #.get_or_404(book_id) is a handler that will automatically return a 404 not found error if do not exist
+    book = Book.query.get_or_404(book_id)
+    return jsonify(book.to_dict())
+
+#Endpoint  to delete a book
+@app.route('/books/<int:book_id>', methods=['DELETE'])
+def delete_book(book_id):
+    book = Book.query.get_or_404(book_id)
+
+    #delete the book fromthe database
+    db.session.delete(book)
+    db.session.commit()
+
+    #return a sucess message
+    return jsonify({'message': 'Book deleted sucessfully'})
+
+# Endpoint to update an existing book
+@app.route('/books/<int:book_id>', methods=['PUT'])
+def update_book(book_id):
+    book = Book.query.get_or_404(book_id)
+    data = request.get_json()
+
+    # Update the book's attributes with the new data
+    book.title = data['title']
+    book.author = data['author']
+    book.published_year = data.get('published_year')
+
+    # Commit the changes to the database
+    db.session.commit()
+
+    return jsonify(book.to_dict())
+
 # This allows us to run the app directly from the command line
 if __name__ == '__main__':
     app.run(debug=True)
