@@ -1,2 +1,11 @@
+# .gitignore
+
+# Python virtual environment
 venv/
+
+# SQLite database
+library.db
+
+# Python cache
 __pycache__/
+*.pyc
