@@ -1,4 +1,16 @@
+# STATIC WEBSITE FOR PORTFOLIO
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : DHARUN PRASHOB M M
+
+*INTERN ID* : CT04DY2328
+
+*DOMAIN* : SOFTWARE DEVELOPMENT
+
+*DURATION* : 4 WEEEKS
+
+*MENTOR* : NEELA SANTOSH
 **OUTPUT: <img width="1755" height="3450" alt="Image" src="https://github.com/user-attachments/assets/46ba3663-2ac6-4b2f-9b96-9d83e84f70ba" />
 
 # Library Management RESTful API 📚
@@ -77,7 +89,7 @@ This command will start the Flask development server. The `db.create_all()` comm
 python app.py
 ```
 
-The API will now be running at `http://127.0.0.1:5000`.
+The API will now be running at `http://127.0.0.1:5000/apidocs`.
 
 -----
 
