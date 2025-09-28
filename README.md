@@ -1,4 +1,4 @@
-# STATIC WEBSITE FOR PORTFOLIO
+# REAL-TIME COLLABORATION TOOL
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
@@ -12,7 +12,8 @@
 
 *MENTOR* : NEELA SANTOSH
 
-**OUTPUT**: <img width="1755" height="3450" alt="Image" src="https://github.com/user-attachments/assets/46ba3663-2ac6-4b2f-9b96-9d83e84f70ba" />
+**OUTPUT**:
+<img width="1755" height="3450" alt="Image" src="https://github.com/user-attachments/assets/46ba3663-2ac6-4b2f-9b96-9d83e84f70ba" />
 
 # Library Management RESTful API 📚
 
