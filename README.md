@@ -1,6 +1,5 @@
-Of course. Here is a complete `README.md` file for your project. You can copy and paste this directly into a file named `README.md` in your project's root directory.
 
------
+**OUTPUT: <img width="1755" height="3450" alt="Image" src="https://github.com/user-attachments/assets/46ba3663-2ac6-4b2f-9b96-9d83e84f70ba" />
 
 # Library Management RESTful API 📚
 
